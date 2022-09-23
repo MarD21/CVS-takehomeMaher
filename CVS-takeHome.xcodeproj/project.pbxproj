@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9C8AA3528DDD5E900CE3C9C /* CVS_takeHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8AA3428DDD5E900CE3C9C /* CVS_takeHomeApp.swift */; };
+		D9C8AA3728DDD5E900CE3C9C /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8AA3628DDD5E900CE3C9C /* HomeFeedView.swift */; };
+		D9C8AA3928DDD5EA00CE3C9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C8AA3828DDD5EA00CE3C9C /* Assets.xcassets */; };
+		D9C8AA3C28DDD5EA00CE3C9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C8AA3B28DDD5EA00CE3C9C /* Preview Assets.xcassets */; };
+		D9C8AA4628DDD5EB00CE3C9C /* CVS_takeHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8AA4528DDD5EB00CE3C9C /* CVS_takeHomeTests.swift */; };
+		D9C8AA5028DDD5EB00CE3C9C /* CVS_takeHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8AA4F28DDD5EB00CE3C9C /* CVS_takeHomeUITests.swift */; };
+		D9C8AA5228DDD5EB00CE3C9C /* CVS_takeHomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8AA5128DDD5EB00CE3C9C /* CVS_takeHomeUITestsLaunchTests.swift */; };
+		D9C8AA6028DDD68900CE3C9C /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8AA5F28DDD68900CE3C9C /* ImageDetailView.swift */; };
+		D9C8AA6228DDD6BC00CE3C9C /* FlickrImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8AA6128DDD6BC00CE3C9C /* FlickrImageModel.swift */; };
+		D9C8AA6428DDD6E500CE3C9C /* FlickrSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8AA6328DDD6E500CE3C9C /* FlickrSearchViewModel.swift */; };
+		D9C8AA6628DDD70B00CE3C9C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8AA6528DDD70B00CE3C9C /* NetworkManager.swift */; };
+		D9C8AA6828DE24D000CE3C9C /* StringFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8AA6728DE24D000CE3C9C /* StringFormatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9C8AA4228DDD5EB00CE3C9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9C8AA2928DDD5E900CE3C9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C8AA3028DDD5E900CE3C9C;
+			remoteInfo = "CVS-takeHome";
+		};
+		D9C8AA4C28DDD5EB00CE3C9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9C8AA2928DDD5E900CE3C9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C8AA3028DDD5E900CE3C9C;
+			remoteInfo = "CVS-takeHome";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9C8AA3128DDD5E900CE3C9C /* CVS-takeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CVS-takeHome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C8AA3428DDD5E900CE3C9C /* CVS_takeHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_takeHomeApp.swift; sourceTree = "<group>"; };
+		D9C8AA3628DDD5E900CE3C9C /* HomeFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedView.swift; sourceTree = "<group>"; };
+		D9C8AA3828DDD5EA00CE3C9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9C8AA3B28DDD5EA00CE3C9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9C8AA4128DDD5EB00CE3C9C /* CVS-takeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CVS-takeHomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C8AA4528DDD5EB00CE3C9C /* CVS_takeHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_takeHomeTests.swift; sourceTree = "<group>"; };
+		D9C8AA4B28DDD5EB00CE3C9C /* CVS-takeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CVS-takeHomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C8AA4F28DDD5EB00CE3C9C /* CVS_takeHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_takeHomeUITests.swift; sourceTree = "<group>"; };
+		D9C8AA5128DDD5EB00CE3C9C /* CVS_takeHomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVS_takeHomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9C8AA5F28DDD68900CE3C9C /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		D9C8AA6128DDD6BC00CE3C9C /* FlickrImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrImageModel.swift; sourceTree = "<group>"; };
+		D9C8AA6328DDD6E500CE3C9C /* FlickrSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrSearchViewModel.swift; sourceTree = "<group>"; };
+		D9C8AA6528DDD70B00CE3C9C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D9C8AA6728DE24D000CE3C9C /* StringFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringFormatter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9C8AA2E28DDD5E900CE3C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8AA3E28DDD5EB00CE3C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8AA4828DDD5EB00CE3C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9C8AA2828DDD5E900CE3C9C = {
+			isa = PBXGroup;
+			children = (
+				D9C8AA3328DDD5E900CE3C9C /* CVS-takeHome */,
+				D9C8AA4428DDD5EB00CE3C9C /* CVS-takeHomeTests */,
+				D9C8AA4E28DDD5EB00CE3C9C /* CVS-takeHomeUITests */,
+				D9C8AA3228DDD5E900CE3C9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9C8AA3228DDD5E900CE3C9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8AA3128DDD5E900CE3C9C /* CVS-takeHome.app */,
+				D9C8AA4128DDD5EB00CE3C9C /* CVS-takeHomeTests.xctest */,
+				D9C8AA4B28DDD5EB00CE3C9C /* CVS-takeHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9C8AA3328DDD5E900CE3C9C /* CVS-takeHome */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8AA3428DDD5E900CE3C9C /* CVS_takeHomeApp.swift */,
+				D9C8AA6128DDD6BC00CE3C9C /* FlickrImageModel.swift */,
+				D9C8AA6328DDD6E500CE3C9C /* FlickrSearchViewModel.swift */,
+				D9C8AA6528DDD70B00CE3C9C /* NetworkManager.swift */,
+				D9C8AA6728DE24D000CE3C9C /* StringFormatter.swift */,
+				D9C8AA5E28DDD66B00CE3C9C /* Views */,
+				D9C8AA3828DDD5EA00CE3C9C /* Assets.xcassets */,
+				D9C8AA3A28DDD5EA00CE3C9C /* Preview Content */,
+			);
+			path = "CVS-takeHome";
+			sourceTree = "<group>";
+		};
+		D9C8AA3A28DDD5EA00CE3C9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8AA3B28DDD5EA00CE3C9C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9C8AA4428DDD5EB00CE3C9C /* CVS-takeHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8AA4528DDD5EB00CE3C9C /* CVS_takeHomeTests.swift */,
+			);
+			path = "CVS-takeHomeTests";
+			sourceTree = "<group>";
+		};
+		D9C8AA4E28DDD5EB00CE3C9C /* CVS-takeHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8AA4F28DDD5EB00CE3C9C /* CVS_takeHomeUITests.swift */,
+				D9C8AA5128DDD5EB00CE3C9C /* CVS_takeHomeUITestsLaunchTests.swift */,
+			);
+			path = "CVS-takeHomeUITests";
+			sourceTree = "<group>";
+		};
+		D9C8AA5E28DDD66B00CE3C9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8AA3628DDD5E900CE3C9C /* HomeFeedView.swift */,
+				D9C8AA5F28DDD68900CE3C9C /* ImageDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9C8AA3028DDD5E900CE3C9C /* CVS-takeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C8AA5528DDD5EB00CE3C9C /* Build configuration list for PBXNativeTarget "CVS-takeHome" */;
+			buildPhases = (
+				D9C8AA2D28DDD5E900CE3C9C /* Sources */,
+				D9C8AA2E28DDD5E900CE3C9C /* Frameworks */,
+				D9C8AA2F28DDD5E900CE3C9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CVS-takeHome";
+			productName = "CVS-takeHome";
+			productReference = D9C8AA3128DDD5E900CE3C9C /* CVS-takeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9C8AA4028DDD5EB00CE3C9C /* CVS-takeHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C8AA5828DDD5EB00CE3C9C /* Build configuration list for PBXNativeTarget "CVS-takeHomeTests" */;
+			buildPhases = (
+				D9C8AA3D28DDD5EB00CE3C9C /* Sources */,
+				D9C8AA3E28DDD5EB00CE3C9C /* Frameworks */,
+				D9C8AA3F28DDD5EB00CE3C9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C8AA4328DDD5EB00CE3C9C /* PBXTargetDependency */,
+			);
+			name = "CVS-takeHomeTests";
+			productName = "CVS-takeHomeTests";
+			productReference = D9C8AA4128DDD5EB00CE3C9C /* CVS-takeHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9C8AA4A28DDD5EB00CE3C9C /* CVS-takeHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C8AA5B28DDD5EB00CE3C9C /* Build configuration list for PBXNativeTarget "CVS-takeHomeUITests" */;
+			buildPhases = (
+				D9C8AA4728DDD5EB00CE3C9C /* Sources */,
+				D9C8AA4828DDD5EB00CE3C9C /* Frameworks */,
+				D9C8AA4928DDD5EB00CE3C9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C8AA4D28DDD5EB00CE3C9C /* PBXTargetDependency */,
+			);
+			name = "CVS-takeHomeUITests";
+			productName = "CVS-takeHomeUITests";
+			productReference = D9C8AA4B28DDD5EB00CE3C9C /* CVS-takeHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9C8AA2928DDD5E900CE3C9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D9C8AA3028DDD5E900CE3C9C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D9C8AA4028DDD5EB00CE3C9C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D9C8AA3028DDD5E900CE3C9C;
+					};
+					D9C8AA4A28DDD5EB00CE3C9C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D9C8AA3028DDD5E900CE3C9C;
+					};
+				};
+			};
+			buildConfigurationList = D9C8AA2C28DDD5E900CE3C9C /* Build configuration list for PBXProject "CVS-takeHome" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9C8AA2828DDD5E900CE3C9C;
+			productRefGroup = D9C8AA3228DDD5E900CE3C9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9C8AA3028DDD5E900CE3C9C /* CVS-takeHome */,
+				D9C8AA4028DDD5EB00CE3C9C /* CVS-takeHomeTests */,
+				D9C8AA4A28DDD5EB00CE3C9C /* CVS-takeHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9C8AA2F28DDD5E900CE3C9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C8AA3C28DDD5EA00CE3C9C /* Preview Assets.xcassets in Resources */,
+				D9C8AA3928DDD5EA00CE3C9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8AA3F28DDD5EB00CE3C9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8AA4928DDD5EB00CE3C9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9C8AA2D28DDD5E900CE3C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C8AA6628DDD70B00CE3C9C /* NetworkManager.swift in Sources */,
+				D9C8AA6828DE24D000CE3C9C /* StringFormatter.swift in Sources */,
+				D9C8AA6428DDD6E500CE3C9C /* FlickrSearchViewModel.swift in Sources */,
+				D9C8AA3728DDD5E900CE3C9C /* HomeFeedView.swift in Sources */,
+				D9C8AA6028DDD68900CE3C9C /* ImageDetailView.swift in Sources */,
+				D9C8AA3528DDD5E900CE3C9C /* CVS_takeHomeApp.swift in Sources */,
+				D9C8AA6228DDD6BC00CE3C9C /* FlickrImageModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8AA3D28DDD5EB00CE3C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C8AA4628DDD5EB00CE3C9C /* CVS_takeHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8AA4728DDD5EB00CE3C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C8AA5028DDD5EB00CE3C9C /* CVS_takeHomeUITests.swift in Sources */,
+				D9C8AA5228DDD5EB00CE3C9C /* CVS_takeHomeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9C8AA4328DDD5EB00CE3C9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9C8AA3028DDD5E900CE3C9C /* CVS-takeHome */;
+			targetProxy = D9C8AA4228DDD5EB00CE3C9C /* PBXContainerItemProxy */;
+		};
+		D9C8AA4D28DDD5EB00CE3C9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9C8AA3028DDD5E900CE3C9C /* CVS-takeHome */;
+			targetProxy = D9C8AA4C28DDD5EB00CE3C9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9C8AA5328DDD5EB00CE3C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9C8AA5428DDD5EB00CE3C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9C8AA5628DDD5EB00CE3C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CVS-takeHome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maherDamouni.CVS-takeHome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9C8AA5728DDD5EB00CE3C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CVS-takeHome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maherDamouni.CVS-takeHome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9C8AA5928DDD5EB00CE3C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maherDamouni.CVS-takeHomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVS-takeHome.app/CVS-takeHome";
+			};
+			name = Debug;
+		};
+		D9C8AA5A28DDD5EB00CE3C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maherDamouni.CVS-takeHomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVS-takeHome.app/CVS-takeHome";
+			};
+			name = Release;
+		};
+		D9C8AA5C28DDD5EB00CE3C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maherDamouni.CVS-takeHomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CVS-takeHome";
+			};
+			name = Debug;
+		};
+		D9C8AA5D28DDD5EB00CE3C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maherDamouni.CVS-takeHomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CVS-takeHome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9C8AA2C28DDD5E900CE3C9C /* Build configuration list for PBXProject "CVS-takeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C8AA5328DDD5EB00CE3C9C /* Debug */,
+				D9C8AA5428DDD5EB00CE3C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C8AA5528DDD5EB00CE3C9C /* Build configuration list for PBXNativeTarget "CVS-takeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C8AA5628DDD5EB00CE3C9C /* Debug */,
+				D9C8AA5728DDD5EB00CE3C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C8AA5828DDD5EB00CE3C9C /* Build configuration list for PBXNativeTarget "CVS-takeHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C8AA5928DDD5EB00CE3C9C /* Debug */,
+				D9C8AA5A28DDD5EB00CE3C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C8AA5B28DDD5EB00CE3C9C /* Build configuration list for PBXNativeTarget "CVS-takeHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C8AA5C28DDD5EB00CE3C9C /* Debug */,
+				D9C8AA5D28DDD5EB00CE3C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9C8AA2928DDD5E900CE3C9C /* Project object */;
+}
